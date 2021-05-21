@@ -1,11 +1,12 @@
 import { Badge } from "@material-ui/core";
 import React from "react";
 import { img_300, unavailable } from "../config/config";
+import ContentModal from "./ContentModal";
 import "./SingleContent.css";
 
 function SingleContent({ id, poster, title, date, media_type, vote_average }) {
   return (
-    <div className="media">
+    <ContentModal media_type = {media_type} id={id}>
       <Badge
         badgeContent={vote_average}
         color={vote_average > 7 ? "primary" : "secondary"}
@@ -16,7 +17,7 @@ function SingleContent({ id, poster, title, date, media_type, vote_average }) {
         {media_type === "tv" ? "TV SERIES" : "MOVIE"}
         <span className="subTitle">{date}</span>
       </span>
-    </div>
+    </ContentModal>
   );
 }
 

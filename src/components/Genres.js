@@ -53,7 +53,7 @@ function Genres({
             style={{ margin: 2 }}
             label={genre.name}
             key={genre.id}
-            color="primary"
+            color="secondary"
             clickable
             size="small"
             onDelete={() => handleRemove(genre)}
@@ -68,6 +68,7 @@ function Genres({
             label={genre.name}
             key={genre.id}
             clickable
+            color="primary"
             size="small"
             onClick={() => handleAdd(genre)}
           />
