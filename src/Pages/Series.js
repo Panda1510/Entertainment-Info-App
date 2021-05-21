@@ -36,7 +36,7 @@ function Series({}) {
       <span className="pageTitle">TV Series</span>
 
       <Genres
-        type="movie"
+        type="tv"
         selectedGenres={selectedGenres}
         genres={genres}
         setGenres={setGenres}

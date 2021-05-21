@@ -36,7 +36,7 @@ function Movies() {
     <div>
       <span className="pageTitle">Movies</span>
       <Genres
-        type="tv"
+        type="movie"
         selectedGenres={selectedGenres}
         genres={genres}
         setGenres={setGenres}
