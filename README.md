@@ -1,3 +1,12 @@
+### PROCEDURE
+* Used Material-ui core and icons for UI
+* Used axios for API requests.
+* API used: MovieDB
+* For the genres part, used Chip from material UI
+
+### TODO (TO MAKE IT BETTER):
+* Make the cards come up and zoom in a little bit, to give a coming up effect
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
