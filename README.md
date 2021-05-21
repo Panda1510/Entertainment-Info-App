@@ -1,3 +1,6 @@
+### HOSTING URL:
+Site-URL: https://movies-info-app-717f2.web.app/
+
 ### PROCEDURE
 * Used Material-ui core and icons for UI
 * Used axios for API requests.
