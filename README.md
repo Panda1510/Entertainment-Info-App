@@ -7,8 +7,6 @@ Site-URL: https://movies-info-app-717f2.web.app/
 * API used: MovieDB
 * For the genres part, used Chip from material UI
 
-### TODO (TO MAKE IT BETTER):
-* Make the cards come up and zoom in a little bit, to give a coming up effect
 
 # Getting Started with Create React App
 
